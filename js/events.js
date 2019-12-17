@@ -22,9 +22,9 @@ function pressIt()
 
 function submitIt()
 {
-  $("form").on("load", function()
+  $("form").on("submit", function()
   {
-    $('img').addClass("tasty")
+    window.alert("Your Form is going to be submitted now.")
   });
 }
 
