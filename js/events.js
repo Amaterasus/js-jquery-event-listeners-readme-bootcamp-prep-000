@@ -19,7 +19,10 @@ function pressIt()
 {
   $("#typing").on("keydown", function(key)
   {
-    
+    if (key.which == "g")
+    {
+      alert('G was pressed');
+    }
   });
 }
 
