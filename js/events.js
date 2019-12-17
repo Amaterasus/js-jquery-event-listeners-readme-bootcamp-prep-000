@@ -22,7 +22,10 @@ function pressIt()
 
 function submitIt()
 {
-  
+  $("img").on("load", function()
+  {
+    $('img').addClass("tasty")
+  });
 }
 
 $(document).ready(function(){
