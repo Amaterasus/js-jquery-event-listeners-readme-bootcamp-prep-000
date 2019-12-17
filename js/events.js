@@ -1,7 +1,6 @@
-function getIt()
-{
-  
-}
+$('p').on("eventname", function getIt(){
+    //action you want taken
+});
 
 function frameIt()
 {
