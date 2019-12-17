@@ -1,6 +1,7 @@
-$('p').on("eventname", function getIt(){
+function getIt()
+{
     alert("Hey!")
-});
+}
 
 function frameIt()
 {
