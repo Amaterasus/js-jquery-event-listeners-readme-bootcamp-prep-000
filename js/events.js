@@ -17,17 +17,19 @@ function frameIt()
 
 function pressIt()
 {
-  
+  $("form").on("keydown", function(key)
+  {
+    
+  });
 }
 
 function submitIt()
 {
   $("form").on("submit", function()
   {
-    alert("Your Form is going to be submitted now.")
+    alert("Your Form is going to be submitted now.");
     
   });
-  return;
 }
 
 $(document).ready(function(){
