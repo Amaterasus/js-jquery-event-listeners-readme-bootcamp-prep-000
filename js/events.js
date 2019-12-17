@@ -11,7 +11,7 @@ function frameIt()
 {
   $("img").on("load", function()
   {
-    alert("Hey!");
+    $('#img').append('<img id="theImg" src="https://s3.amazonaws.com/learn-verified/painting-with-dog.gif" />')
   });
 }
 
