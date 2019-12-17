@@ -1,5 +1,5 @@
 $('p').on("eventname", function getIt(){
-    //action you want taken
+    alert("Hey!")
 });
 
 function frameIt()
