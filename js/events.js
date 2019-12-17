@@ -1,6 +1,9 @@
 function getIt()
 {
-    $("p").on("keydown")
+    $("p").on("keydown", function(key)
+    {
+      
+    }
     alert("Hey!")
 }
 
