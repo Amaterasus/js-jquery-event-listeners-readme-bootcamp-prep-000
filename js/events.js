@@ -1,15 +1,18 @@
 function getIt()
 {
-    $("p").on("click", function(key)
-    {
-      alert("Hey!");
-    });
+  $("p").on("click", function(key)
+  {
+    alert("Hey!");
+  });
     
 }
 
 function frameIt()
 {
-  
+  $("p").on("load", function()
+  {
+    alert("Hey!");
+  });
 }
 
 function pressIt()
