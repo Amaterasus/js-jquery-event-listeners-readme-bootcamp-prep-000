@@ -1,10 +1,10 @@
 function getIt()
 {
-    $("p").on("keydown", function(key)
+    $("p").on("click", function(key)
     {
-      
-    }
-    alert("Hey!")
+      alert("Hey!");
+    });
+    
 }
 
 function frameIt()
